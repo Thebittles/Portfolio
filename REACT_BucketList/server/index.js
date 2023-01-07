@@ -71,7 +71,6 @@ app.delete('/bucket/:id', (req, res) => {
         if(error){
             res.status(404).send({ message: "Error Delete BucketList Item."})
         } else {
-            console.log("Successfully delete")
             res.json(result)
         }
     })
