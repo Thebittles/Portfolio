@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+     
+<div class="container">
+    <h1>Activity Generator</h1>
+    <div class="activity-div">
+        <input type="submit" value="Random" id="random" class="btn btn-random">
+        <p>Click the button to generate a random activity</p>
+    </div>
+    <div class="activity-div">
+        <!-- ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"] -->
+        <input type="radio" name="type" value="education">Education
+        <input type="radio" name="type" value="recreational">Recreational
+        <input type="radio" name="type" value="social">Social
+        <input type="radio" name="type" value="diy">DIY
+        <input type="submit" value="Go!" id="activity" class="btn btn-random">
+        <p>Select type of Activity</p>
+
+    </div>
+    <div class="activity-div">
+     <h2>Results</h2>
+        <p id="results"></p>
+    </div>
+  </div>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
