@@ -1,0 +1,30 @@
+
+/* Style game grid  */
+.grid {
+    width: 200px;
+    height: 400px;
+    background: #303030;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+
+/* Individual grid squares */
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+
+.tetromino {
+    background-color: #A8201A;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #343434;
+    border-radius: 6px;
+}
