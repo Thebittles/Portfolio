@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/navbar.ejs') %>
+
+
+<h1>Stranger Things</h1>
+<h2>Characters</h2>
+<div class="container text-center">
+    <a href="/"><button class="btn">Home</button></a>
+
+<div class="row justify-content-center">
+ <!-- iterate through our  array of objects (aka: data) -->
+<% data.forEach(char => { %>
+
+    <%- include('partials/card.ejs', {data: char}) %>
+
+<% }) %>
+</div>
+
+
+
+
+<!-- Close container -->
+</div>
+
+<%- include('partials/footer.ejs') %>

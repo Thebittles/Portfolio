@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Rubik+Glitch&display=swap');
+/* Colors 
+#073e1e	
+#3a5fe5	
+#ff1515
+#1e0707	
+#1e193c
+
+*/
+
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(30,7,7,1) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Navbar background */
+.navbar-dark {
+    background: rgba(0, 0, 0, 0.366);
+}
+
+
+
+/* Headers have font and all uppercase center of page/container */
+h1, h2 {
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+h1 {
+    color: #ff1515;
+    margin-top: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+
+
+/* Button Styles */
+button.btn {
+    text-align: center;
+    color: white;
+    background: #3a5fef
+}
+
+button.btn:hover {
+    color: white;
+    background: #1e193c;
+}
+
+
+
+/* Make images fit bootstrap card */
+div img.card-img-top{
+    height: 15rem;
+    object-fit: cover;
+}
+
+label {
+    color: white;
+}
+
+

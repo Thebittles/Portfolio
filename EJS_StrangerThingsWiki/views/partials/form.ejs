@@ -1,0 +1,15 @@
+		<!-- Form - req.query -->
+		<form class="form my-3" action="/id">
+			<div class="form__input">
+				<label for="id" class="mx-2">Select Character:</label>
+					 <select name="id" id="id"> <!-- onchange="this.form.submit()"-->
+						<% data.forEach((char, index)=> { %>
+							<option value="<%= index %>">
+								<%= char.name%>
+							</option>
+							<% }) %>
+					</select>
+
+				<button type="submit" class="btn">Submit</button>
+			</div>
+		</form>

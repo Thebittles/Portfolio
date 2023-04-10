@@ -1,0 +1,18 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/navbar.ejs') %>
+
+
+<h1>Stranger Things</h1>
+<h2>Character: <%= data.name  %> </h2>
+<div class="container text-center">
+    <a href="/"><button class="btn">Home</button></a>
+
+<div class="row justify-content-center">
+    <!-- Instead of saying {data: data} we can just do data -->
+    <%- include('partials/card.ejs', {data}) %>
+
+
+<!-- Close container -->
+</div>
+
+<%- include('partials/footer.ejs') %>
